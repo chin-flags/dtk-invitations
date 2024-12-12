@@ -1,10 +1,10 @@
 {
   "image": "mcr.microsoft.com/devcontainers/typescript-node:dev-22",
-  "postCreateCommand": "pnpm install",
+  "postCreateCommand": "npm install",
     "remoteEnv": {
     "NPM_TOKEN": "${{ secrets.NPM_TOKEN }}"
   },
-  "postAttachCommand": "pnpm dev",
+  "postAttachCommand": "npm dev",
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
