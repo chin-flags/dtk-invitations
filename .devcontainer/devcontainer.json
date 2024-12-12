@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "pnpm install",
+    "remoteEnv": {
+    "NPM_TOKEN": "${{ secrets.NPM_TOKEN }}"
+  }
+}
